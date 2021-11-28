@@ -1,0 +1,7 @@
+Сайт http://druzyaserial.ru/seasons/season-6/episode-3
+
+//h1 - заголовок "Друзья 6 сезон 3 серия" по тегу
+//div[@class="content"] - батьківський елемент по атрибуту
+//div[@class="episode-title"]/parent::* - елемент з пункту 2, тільки через слово parent
+//div[@id="container-1"][@class="clearfix"] - будь-який XPath по 2-х атрибутах (id, class)
+//*[@id="container-1"][@class="clearfix"] - замість тега з п.4 вказати зірочку
